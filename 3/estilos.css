@@ -1,0 +1,99 @@
+body{
+    background-color: rgb(17, 36, 40);
+
+}
+.container{
+    background-color: rgba(26, 129, 160, 0.953);
+    max-width: 400px;
+    margin: auto;
+    padding: 40px 20px;
+    
+}
+
+.header{
+    border-bottom: 1px solid black;
+}
+
+div{
+background-color: aqua;
+border: solid 1px black;
+width: auto;
+height: auto;
+border-radius: 20px 50px;
+}
+ .titulo{
+    text-align: center;
+ }
+
+ .boton-agregar{
+    display: block;
+    margin:auto;
+    background-color: rgb(238, 113, 96);
+    padding: 8px 10px;
+    border-radius: 50px 20px;
+    font-weight: bold;
+    
+ }
+  .boton-agregar:hover{
+  background-color: wheat;  
+  }
+  
+  .lista-tareas{
+    list-style:none;
+    padding:0;
+   
+  }
+  .lista-tareas li{
+    margin: 10px 0;
+    background-color: aqua;
+    padding: 5px;
+    border-radius: 10px 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .lista-tareas li:hover{
+    background-color: aquamarine;
+  }
+  
+  .boton-eliminar {
+    background-color: rgb(176, 4, 30);
+    color: white;
+    font-weight: bold;
+    border: none;
+  }
+
+  .boton-eliminar:hover{
+    background-color: wheat;
+
+  }
+
+  .input-tarea{
+    border-color: aqua;
+    background-color: aqua;
+    padding: 2px;
+    width: 100%;
+    outline-color: none;
+    text-transform: capitalize;
+    
+  }
+
+.input-tarea:focus{
+    background-color: rgb(233, 213, 213);
+}
+
+.boton-limpiar{
+    display: block;
+    margin:auto;
+    padding:4px 10px ;
+    fond-weight: bold;
+    color:rgb(245, 240, 241) ;
+    border-radius: 10px 10px;
+    background-color: rgb(176, 4, 30);
+    
+
+}
+
+.boton-limpiar:hover {
+background-color: wheat;
+}
